@@ -110,8 +110,8 @@ Before running the application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone
-cd
+git clone https://github.com/ThienBach13/dotnet-vector-search-engine.git
+cd https://github.com/ThienBach13/dotnet-vector-search-engine.git
 ```
 
 ### 2. Build and Run the Application
