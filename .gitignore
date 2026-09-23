@@ -1,0 +1,53 @@
+## =========================================================================
+## Build Results & Artifacts
+## =========================================================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+
+## =========================================================================
+## Visual Studio Workspace & User Settings
+## =========================================================================
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+
+## =========================================================================
+## Test Results & Code Coverage
+## =========================================================================
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## =========================================================================
+## JetBrains Rider & VS Code (if used by team members)
+## =========================================================================
+.idea/
+*.sln.iml
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+## =========================================================================
+## Credentials, Secrets & Local Environment Overrides
+## =========================================================================
+# Ignored because it contains your private API credentials / connection strings
+**/Properties/launchSettings.json
+launchSettings.json
+
+# Local and environment app configs
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json.example
+*.local.json
+.env
+.env.*
